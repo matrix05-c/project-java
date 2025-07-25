@@ -1,0 +1,108 @@
+@import "materialfx-design.css";
+
+.header {
+  -fx-background-color: #ffffff;
+  -fx-text-fill: rgba(0, 0, 0, 0.87);
+}
+
+.brand {
+  -fx-font-family: "Open Sans Bold";
+  -fx-font-size: 24;
+}
+
+.mfx-button {
+  -fx-background-radius: 5;
+  -fx-padding: 7 10 7 10;
+  -fx-font-family: "Open Sans SemiBold";
+}
+
+.mfx-button.primary {
+  -fx-background-color: derive(-mfx-purple, -20%);
+  -fx-text-fill: white;
+}
+
+.mfx-button.secondary {
+  -fx-text-fill: derive(-mfx-purple, -20%);
+}
+
+.mfx-button.tertiary {
+  -fx-text-fill: -mfx-charcoal;
+  -fx-opacity: 0.8;
+}
+
+.mfx-button.tool-button {
+  -fx-font-family: "FontAwesome";
+  -fx-font-size: 18;
+}
+
+.mfx-button.flat-button {
+  -fx-background-color: transparent;
+}
+
+.mfx-button.flat-button:hover {
+  -fx-background-color: white;
+}
+
+.mfx-button.danger {
+  -fx-text-fill: -mfx-red;
+}
+
+.mfx-button.success {
+  -fx-text-fill: -mfx-green;
+}
+
+*:disabled {
+  -fx-text-fill: -mfx-charcoal;
+  -fx-opacity: 0.6;
+}
+
+.mfx-text-field,
+.mfx-spinner,
+.mfx-combo-box {
+  -fx-min-width: 128;
+  -fx-min-height: 32;
+}
+
+.lg {
+  -fx-min-width: 256;
+}
+
+.validation-feedback {
+  -fx-font-size: 12;
+  -fx-text-fill: -mfx-red;
+}
+
+.card {
+  -fx-background-color: #ffffff;
+  -fx-background-radius: 5;
+}
+
+.card .header { 
+  -fx-font-family: "Open Sans Bold";
+  -fx-font-size: 18;
+  -fx-text-fill: -mfx-text-he;
+  -fx-graphic-text-gap: 10;
+}
+
+.header .accent {
+  -fx-border-width: 0 0 1.5 0;
+  -fx-border-color: -mfx-purple;
+  -fx-text-fill: -mfx-charcoal;
+  -fx-opacity: 1;
+}
+
+.card .tertiary {
+  -fx-font-size: 12;
+  -fx-text-fill: -mfx-charcoal;
+}
+
+.display1 {
+  -fx-font-family: "Roboto Bold";
+  -fx-font-size: 34;
+}
+
+.display2 {
+  -fx-font-family: "Roboto Bold";
+  -fx-font-size: 24;
+}
+
